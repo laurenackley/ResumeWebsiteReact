@@ -1,8 +1,12 @@
+import Education from "./Education";
+import Technologies from "./Technologies";
+
 const Home = () => {
-    return (
-        <div className="home">
-            <h2>Test</h2>
-        </div>
-    )
-}
+  return (
+    <div className="home">
+<Education />
+<Technologies />
+</div>
+  );
+};
 export default Home;
