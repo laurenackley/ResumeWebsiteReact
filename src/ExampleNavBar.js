@@ -8,8 +8,8 @@ function OffcanvasExample() {
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
-          <Container fluid>
+        <Navbar key={expand} expand={expand}>
+          <Container fluid id="nav">
             <Navbar.Brand href="#">Lauren Ackley's Resume Website</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -23,7 +23,7 @@ function OffcanvasExample() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="navLinks">
+                <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Link to="/">Home</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
@@ -37,4 +37,4 @@ function OffcanvasExample() {
   );
 }
 
-export default OffcanvasExample; 
+export default OffcanvasExample;

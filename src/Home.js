@@ -5,7 +5,12 @@ const Home = () => {
   return (
     <div className="home">
 <Education />
+<br />
+<br />
 <Technologies />
+<br />
+<br />
+
 <Exp />
 </div>
   );

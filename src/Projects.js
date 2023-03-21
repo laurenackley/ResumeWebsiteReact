@@ -9,8 +9,9 @@ const Projects = () => {
 
       <div id="Midterm">
         <h2>Web Application - Sip. </h2>
-        <br />
-        &emsp; Java, MySQL, JDBC, SpringBoot, JPQL, JSP
+        &emsp; &emsp;<em>Java, MySQL, JDBC, SpringBoot, JPQL, JSP</em>
+        
+        <hr />
         <ul>
           <li>
             This was the first group project that I was able to work on. We
@@ -62,7 +63,8 @@ const Projects = () => {
 
       <div id="Final">
         <h2>Progressive Web Application - SkillSwap</h2>
-        &emsp; Java, MySQL, JDBC, SpringBoot, JPQL, JavaScript, Angular
+        &emsp;  &emsp;<em>Java, MySQL, JDBC, SpringBoot, JPQL, JavaScript, Angular</em>
+        < hr/>
         <ul>
           <li>
             This was the final project that I did at Skill Distillery and it was
