@@ -1,6 +1,12 @@
 const Projects = () => {
   return (
-    <div className="Projects">
+<div className="Projects">
+
+<div id="list-example" class="list-group">
+  <a class="list-group-item list-group-item-action" href="#Midterm">Midterm</a>
+  <a class="list-group-item list-group-item-action" href="#Final">Final</a>
+</div>
+
       <div id="Midterm">
         <h2>Web Application - Sip. </h2>
         <br />
@@ -40,14 +46,21 @@ const Projects = () => {
             <a
               href="https://github.com/laurenackley/MidtermProjectLauren"
               target={`_blank`}
-            >
+              >
               Link to GitHub
             </a>
+
           </li>
         </ul>
-      </div>
+            <a href="https://i.imgur.com/yBwPzs5.png" target={`_blank`}> <img class="schema" src="https://i.imgur.com/yBwPzs5.png" alt="Database SchemaDesign" /></a>
+            <br />
+            <br />
+            <a href="https://i.imgur.com/zjlSAao.png" target={`_blank`}> <img class="schema" src="https://i.imgur.com/zjlSAao.png" alt="HomePageSip" /></a>
       <hr />
-      <div id="final">
+
+                  </div>
+
+      <div id="Final">
         <h2>Progressive Web Application - SkillSwap</h2>
         &emsp; Java, MySQL, JDBC, SpringBoot, JPQL, JavaScript, Angular
         <ul>
@@ -87,7 +100,8 @@ const Projects = () => {
             </a>
           </li>
         </ul>
-      </div>
+        <a href="https://i.imgur.com/7iMrm1G.png" target={`_blank`}> <img class="schema" src="https://i.imgur.com/7iMrm1G.png" alt="SkillSwapHomePage" /></a>
+    </div>
     </div>
   );
 };

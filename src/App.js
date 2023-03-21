@@ -3,13 +3,14 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import ExampleNavBar from "./ExampleNavBar";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <title>Resume</title>
-        <Navbar />
+        <ExampleNavBar />
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />} />
