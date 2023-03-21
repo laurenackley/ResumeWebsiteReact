@@ -24,3 +24,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+#email {
+  height: 30px;
+  width: 35px;
+}
