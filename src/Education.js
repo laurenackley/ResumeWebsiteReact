@@ -2,7 +2,7 @@ const Education = () => {
   return (
     <div className="education">
       <div className="row">
-        <h2>Education:</h2>
+        <h2>Education:</h2><hr />
         <div className="column">
           <strong>San Antonio College</strong> <br />
           <em>

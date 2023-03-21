@@ -2,17 +2,35 @@ const Technologies = () => {
   return (
     <div className="technologies">
       <h2>Technologies</h2>
+      <hr />
       <div className="column">
-        <strong>Backend Languages: </strong> Java
-        <br />
-        <strong>Web: </strong> Angular, JavaScript, React, TypeScript, HTML,
-        CSS, Bootstrap <br />
-        <strong>Database: </strong> MySQL, JPQL <br />
+        <ul>
+          <li>
+            <strong>Backend Languages: </strong> Java
+          </li>
+          <li>
+            <strong>Web: </strong> Angular, JavaScript, React, TypeScript, HTML,
+            CSS, Bootstrap{" "}
+          </li>
+          <li>
+            <strong>Database: </strong> MySQL, JPQL <br />
+          </li>
+        </ul>
       </div>
       <div className="column">
-        <strong>Development Methodologies: </strong> TDD, Agile, Scrum <br />
-        <strong>Backend Frameworks: </strong> Springboot, JPA, JDBC <br />
-        <strong>Version Control: </strong> Git <br />
+        <ul>
+          <li>
+            <strong>Development Methodologies: </strong> TDD, Agile, Scrum{" "}
+            <br />
+          </li>
+          <li>
+            <strong>Backend Frameworks: </strong> Springboot, JPA, JDBC <br />
+          </li>
+          <li>
+            <strong>Version Control: </strong> Git <br />
+          </li>
+        </ul>
+        <br />
       </div>
     </div>
   );

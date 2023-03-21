@@ -13,3 +13,14 @@ body {
   display: table;
   clear: both;
 }
+#right {
+  float: right;
+  text-align: right;
+}
+#companyName {
+  font-size: 25px;
+}
+.home {
+  margin-left: 10px;
+  margin-right: 10px;
+}
