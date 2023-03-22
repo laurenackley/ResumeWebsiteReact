@@ -10,7 +10,8 @@ function App() {
     <Router>
       <div className="App">
         <title>Resume</title>
-        <ExampleNavBar />
+        <Navbar />
+        {/* <ExampleNavBar /> */}
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Home />} />

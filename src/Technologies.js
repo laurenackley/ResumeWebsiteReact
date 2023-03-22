@@ -17,7 +17,8 @@ const Technologies = () => {
           </li>
         </ul>
       </div>
-      <div className="column">
+      <div className="col2">
+        <span id="col2">
         <ul>
           <li>
             <strong>Development Methodologies: </strong> TDD, Agile, Scrum{" "}
@@ -30,6 +31,7 @@ const Technologies = () => {
             <strong>Version Control: </strong> Git <br />
           </li>
         </ul>
+        </span>
         <br />
       </div>
     </div>

@@ -8,7 +8,7 @@ function OffcanvasExample() {
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} expand={expand}>
+        <Navbar  variant="dark" key={expand} expand={expand}>
           <Container fluid id="nav">
             <Navbar.Brand href="#">Lauren Ackley's Resume Website</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -19,11 +19,11 @@ function OffcanvasExample() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Lauren Ackley
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
+              <Offcanvas.Body >
+                <Nav className="navLinks">
                   <Link to="/">Home</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
@@ -35,6 +35,23 @@ function OffcanvasExample() {
       ))}
     </>
   );
+
+// return (
+//     <Navbar bg="light" expand="lg">
+//       <Container fluid id="nav">
+//         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//         <Navbar.Collapse id="basic-navbar-nav">
+//           <Nav className="me-auto">
+//             <Nav.Link href="#home">Home</Nav.Link>
+//             <Nav.Link href="#link">Link</Nav.Link>
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Container>
+//     </Navbar>
+//   );
+
+
 }
 
 export default OffcanvasExample;
