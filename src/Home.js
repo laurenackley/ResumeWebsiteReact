@@ -4,15 +4,15 @@ import Technologies from "./Technologies";
 const Home = () => {
   return (
     <div className="home">
-<Education />
-<br />
-<br />
-<Technologies />
-<br />
-<br />
+      <Education />
+      <br />
+      <br />
+      <Technologies />
+      <br />
+      <br />
 
-<Exp />
-</div>
+      <Exp />
+    </div>
   );
 };
 export default Home;

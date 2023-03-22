@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
   margin-top: 10px;
-  font-family: sans-serif;
-  margin-left: 15%;
+  font-family: 'Montserrat', sans-serif;  margin-left: 15%;
   max-width: 70%;
   min-width: 500px;
 }
@@ -56,6 +57,15 @@ body {
   align-items: end;
 }*/
 
+.app-header{
+  border-bottom: 1px solid;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.app-header > h1 {
+  font-family: 'Montserrat', sans-serif;
+}
 .carousel-caption {
   color: whitesmoke;
   font-size: 25px;
@@ -83,11 +93,12 @@ body {
 .col2 {
   float: right;
 }
-.navbar {
+.navbar > #navLinks  {
   /* position: fixed;
   top: 0; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* #nav h2{
@@ -101,4 +112,12 @@ body {
   font-size: 30px;
   background-color: navy;
   color: cornflowerblue;
+}
+.opening {
+  background: linear-gradient(0deg, rgba(156,101,110,1) 0%, rgba(148,162,183,1) 100%);
+
+}
+
+.app h1 {
+  text-align: center;
 }
