@@ -16,8 +16,8 @@ function IndividualIntervalsExample() {
       <Carousel className="carousel">
         <Carousel.Item interval={1000}>
           <img
-            className="picture"
-            src="https://i.imgur.com/ucPxv9k.jpg"
+            className="d-flex justify-content-center align-items-center w-auto h-100 m-auto"
+            src="https://i.imgur.com/lgpMZ1H.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -27,7 +27,7 @@ function IndividualIntervalsExample() {
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img
-            className="picture"
+            className="d-flex justify-content-center w-auto h-100 m-auto"
             src="https://i.imgur.com/VwIqFYH_d.jpg?maxwidth=520&shape=thumb&fidelity=high"
             alt="Second slide"
           />
@@ -38,7 +38,7 @@ function IndividualIntervalsExample() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="picture"
+            className="d-flex justify-content-center w-auto h-100 m-auto"
             src="https://i.imgur.com/ib6ztwj.jpg"
             alt="Third slide"
           />
