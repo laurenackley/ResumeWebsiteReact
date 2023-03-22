@@ -1,6 +1,9 @@
 body {
   margin-top: 10px;
   font-family: sans-serif;
+  margin-left: 15%;
+  max-width: 70%;
+  min-width: 500px;
 }
 #right {
   float: right;
@@ -10,10 +13,10 @@ body {
   height: auto;
   width: 100%;
 }
- #test, #test a{
+#test,
+#test a {
   text-align: center;
- }
-
+}
 
 .column {
   float: left;
@@ -28,9 +31,10 @@ body {
   font-size: 25px;
 }
 .home {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: auto;
   padding: 10px;
+  min-width: 500px;
+  max-width: 70%;
 }
 #email {
   height: 30px;
@@ -46,12 +50,11 @@ body {
   padding: 40px;
   text-align: center;
 }
-#edu {
-  height: 200px; 
+/*#edu {
   width: auto;
   display: flex;
   align-items: end;
-}
+}*/
 
 .carousel-caption {
   color: whitesmoke;
@@ -80,20 +83,19 @@ body {
 .col2 {
   float: right;
 }
-.navbar{
+.navbar {
   /* position: fixed;
   top: 0; */
   display: flex;
   justify-content: center;
 }
 
-
 /* #nav h2{
   text-align: center;
 } */
-#test{
-  display:flex;
-align-self: flex-end;  
+#test {
+  display: flex;
+  align-self: flex-end;
 }
 .links a:hover {
   font-size: 30px;

@@ -13,26 +13,24 @@ const Technologies = () => {
             CSS, Bootstrap{" "}
           </li>
           <li>
-            <strong>Database: </strong> MySQL, JPQL <br />
+            <strong>Database: </strong> MySQL, JPQL
           </li>
         </ul>
       </div>
-      <div className="col2">
+      <div className="column">
         <span id="col2">
         <ul>
           <li>
             <strong>Development Methodologies: </strong> TDD, Agile, Scrum{" "}
-            <br />
           </li>
           <li>
-            <strong>Backend Frameworks: </strong> Springboot, JPA, JDBC <br />
+            <strong>Backend Frameworks: </strong> Springboot, JPA, JDBC
           </li>
           <li>
-            <strong>Version Control: </strong> Git <br />
+            <strong>Version Control: </strong> Git
           </li>
         </ul>
         </span>
-        <br />
       </div>
     </div>
   );
