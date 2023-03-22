@@ -20,7 +20,7 @@ const Navbar = () => {
             <HeaderLink to="/" text="Home"/>
             <HeaderLink to="/resume" text="Resume"/>
             <HeaderLink to="/contact" text="Contact Me"/>
-            <HeaderLink to="/projects" text="Portfolio" />
+            <HeaderLink to="/portfolio" text="Portfolio" />
 
         </nav>
     </div>

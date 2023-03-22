@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 body {
-  margin-top: 10px;
-  font-family: 'Montserrat', sans-serif;  margin-left: 15%;
+  margin-top: 115px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 15%;
   max-width: 70%;
   min-width: 500px;
 }
@@ -13,10 +14,6 @@ body {
 #opening {
   height: auto;
   width: 100%;
-}
-#test,
-#test a {
-  text-align: center;
 }
 
 .column {
@@ -48,8 +45,11 @@ body {
   margin: 0 auto;
 }
 #contact {
-  padding: 40px;
+  margin: auto;
+  padding: 10px;
   text-align: center;
+  min-width: 500px;
+  max-width: 70%;
 }
 /*#edu {
   width: auto;
@@ -57,24 +57,17 @@ body {
   align-items: end;
 }*/
 
-.app-header{
+.app-header {
   border-bottom: 1px solid;
-  font-family: 'Montserrat', sans-serif;
-
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+width: 70%;
+min-width: 500px;
 }
 
-.app-header > h1 {
-  font-family: 'Montserrat', sans-serif;
-}
-.carousel-caption {
-  color: whitesmoke;
-  font-size: 25px;
-  text-shadow: 4px 4px 5px white;
-}
-.carousel {
-  height: 100%;
-  width: 100%;
-}
+
 #nav {
   position: fixed;
   border: solid 1px;
@@ -83,41 +76,36 @@ body {
 }
 #list-example {
   position: fixed;
-  bottom: 0;
+  top: 0;
+  margin-left: 0;
+  padding-top: 120px;
 }
 #Midterm,
 #Final {
-  padding-top: 45px;
+  margin: auto;
+  padding: 10px;
+  min-width: 500px;
+  max-width: 70%;
 }
 #col2,
 .col2 {
   float: right;
 }
-.navbar > #navLinks  {
-  /* position: fixed;
-  top: 0; */
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-/* #nav h2{
-  text-align: center;
-} */
-#test {
-  display: flex;
-  align-self: flex-end;
-}
-.links a:hover {
-  font-size: 30px;
-  background-color: navy;
-  color: cornflowerblue;
-}
-.opening {
-  background: linear-gradient(0deg, rgba(156,101,110,1) 0%, rgba(148,162,183,1) 100%);
-
-}
-
 .app h1 {
   text-align: center;
 }
+.navbar > #navLinks {
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+}
+
+.opening {
+  background: linear-gradient(
+    0deg,
+    rgba(156, 101, 110, 1) 0%,
+    rgba(148, 162, 183, 1) 100%
+  );
+}
+

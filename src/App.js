@@ -2,8 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Contact from "./Contact";
-import Projects from "./Projects";
-import ExampleNavBar from "./ExampleNavBar";
+import Portfolio from "./Portfolio";
 import Opening from "./Opening";
 
 function App() {
@@ -15,14 +14,12 @@ function App() {
           <h1>Lauren Ackley</h1>
           <Navbar />
         </div>
-
-        {/* <ExampleNavBar /> */}
         <div className="content">
           <Routes>
             <Route exact path="/" element={<Opening />} />
             <Route exact path="/resume" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/projects" element={< Projects/>} />
+            <Route path="/portfolio" element={< Portfolio/>} />
           </Routes>
         </div>
       </div>

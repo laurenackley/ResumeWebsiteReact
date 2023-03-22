@@ -1,6 +1,6 @@
-const Projects = () => {
+const Portfolio = () => {
   return (
-<div className="Projects">
+<div className="Portfolio">
 
 <div id="list-example" class="list-group">
   <a class="list-group-item list-group-item-action" href="#Midterm">Midterm</a>
@@ -56,7 +56,7 @@ const Projects = () => {
             <a href="https://i.imgur.com/yBwPzs5.png" target={`_blank`}> <img class="schema" src="https://i.imgur.com/yBwPzs5.png" alt="Database SchemaDesign" /></a>
             <br />
             <br />
-            <a href="https://i.imgur.com/zjlSAao.png" target={`_blank`}> <img class="schema" src="https://i.imgur.com/zjlSAao.png" alt="HomePageSip" /></a>
+            <a href="http://sip.laurenackley.dev" target={`_blank`}> <img class="schema" src="https://i.imgur.com/zjlSAao.png" alt="HomePageSip" /></a>
       <hr />
 
                   </div>
@@ -102,9 +102,9 @@ const Projects = () => {
             </a>
           </li>
         </ul>
-        <a href="https://i.imgur.com/7iMrm1G.png" target={`_blank`}> <img class="schema" src="https://i.imgur.com/7iMrm1G.png" alt="SkillSwapHomePage" /></a>
+        <a href="http://skillswap.laurenackley.dev" target={`_blank`}> <img class="schema" src="https://i.imgur.com/7iMrm1G.png" alt="SkillSwapHomePage" /></a>
     </div>
     </div>
   );
 };
-export default Projects;
+export default Portfolio;
