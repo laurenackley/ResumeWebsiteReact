@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-
+#Midterm,
+#Final {
+  margin: auto;
+  padding: 10px;
+  min-width: 500px;
+  max-width: 70%;
+}
+#contact {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  min-width: 500px;
+  max-width: 70%;
+}
+.home {
+  margin: auto;
+  padding: 10px;
+  min-width: 500px;
+  max-width: 70%;
+}
 body {
   margin-top: 115px;
   font-family: "Montserrat", sans-serif;
@@ -11,9 +30,17 @@ body {
   float: right;
   text-align: right;
 }
-#opening {
-  height: auto;
-  width: 100%;
+.opening {
+    margin: auto;
+  padding: 10px;
+  background: linear-gradient(
+    0deg,
+    rgba(156, 101, 110, 1) 0%,
+    rgba(148, 162, 183, 1) 100%
+  );
+  border: 3px solid black;
+    min-width: 500px;
+  max-width: 70%;
 }
 
 .column {
@@ -28,12 +55,7 @@ body {
 #companyName {
   font-size: 25px;
 }
-.home {
-  margin: auto;
-  padding: 10px;
-  min-width: 500px;
-  max-width: 70%;
-}
+
 #email {
   height: 30px;
   width: 35px;
@@ -44,29 +66,34 @@ body {
   display: block;
   margin: 0 auto;
 }
-#contact {
-  margin: auto;
-  padding: 10px;
-  text-align: center;
-  min-width: 500px;
-  max-width: 70%;
-}
 /*#edu {
   width: auto;
   display: flex;
   align-items: end;
 }*/
+.picture {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.carousel {
+  height: 100%;
+  max-height: 800px;
+  display: flex;
+  /* object-fit: contain; */
+  justify-content: baseline;
+}
 
 .app-header {
-  border-bottom: 1px solid;
+  border-bottom: 3px solid;
   font-family: "Montserrat", sans-serif;
   overflow: hidden;
   position: fixed;
   top: 0;
-width: 70%;
-min-width: 500px;
+  width: 70%;
+  min-width: 500px;
+  background-color: white;
 }
-
 
 #nav {
   position: fixed;
@@ -80,12 +107,8 @@ min-width: 500px;
   margin-left: 0;
   padding-top: 120px;
 }
-#Midterm,
-#Final {
-  margin: auto;
-  padding: 10px;
-  min-width: 500px;
-  max-width: 70%;
+#Midterm{
+  border-bottom: 3px black solid;
 }
 #col2,
 .col2 {
@@ -95,17 +118,9 @@ min-width: 500px;
   text-align: center;
 }
 .navbar > #navLinks {
-
   display: flex;
   justify-content: space-between;
-  width: 100%; 
+  width: 100%;
 }
 
-.opening {
-  background: linear-gradient(
-    0deg,
-    rgba(156, 101, 110, 1) 0%,
-    rgba(148, 162, 183, 1) 100%
-  );
-}
 

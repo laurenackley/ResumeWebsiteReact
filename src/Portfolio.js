@@ -1,16 +1,18 @@
 const Portfolio = () => {
   return (
-<div className="Portfolio">
-
-<div id="list-example" class="list-group">
-  <a class="list-group-item list-group-item-action" href="#Midterm">Midterm</a>
-  <a class="list-group-item list-group-item-action" href="#Final">Final</a>
-</div>
+    <div className="Portfolio">
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action" href="#Midterm">
+          Midterm
+        </a>
+        <a class="list-group-item list-group-item-action" href="#Final">
+          Final
+        </a>
+      </div>
 
       <div id="Midterm">
         <h2>Web Application - Sip. </h2>
         &emsp; &emsp;<em>Java, MySQL, JDBC, SpringBoot, JPQL, JSP</em>
-        
         <hr />
         <ul>
           <li>
@@ -47,24 +49,36 @@ const Portfolio = () => {
             <a
               href="https://github.com/laurenackley/MidtermProjectLauren"
               target={`_blank`}
-              >
+            >
               Link to GitHub
             </a>
-
           </li>
         </ul>
-            <a href="https://i.imgur.com/yBwPzs5.png" target={`_blank`}> <img class="schema" src="https://i.imgur.com/yBwPzs5.png" alt="Database SchemaDesign" /></a>
-            <br />
-            <br />
-            <a href="http://sip.laurenackley.dev" target={`_blank`}> <img class="schema" src="https://i.imgur.com/zjlSAao.png" alt="HomePageSip" /></a>
-      <hr />
-
-                  </div>
+        <a href="https://i.imgur.com/yBwPzs5.png" target={`_blank`}>
+          {" "}
+          <img
+            class="schema"
+            src="https://i.imgur.com/yBwPzs5.png"
+            alt="Database SchemaDesign"
+          />
+        </a>
+        <br />
+        <br />
+        <a href="http://sip.laurenackley.dev" target={`_blank`}>
+          {" "}
+          <img
+            class="schema"
+            src="https://i.imgur.com/zjlSAao.png"
+            alt="HomePageSip"
+          />
+        </a>
+      </div>
 
       <div id="Final">
         <h2>Progressive Web Application - SkillSwap</h2>
-        &emsp;  &emsp;<em>Java, MySQL, JDBC, SpringBoot, JPQL, JavaScript, Angular</em>
-        < hr/>
+        &emsp; &emsp;
+        <em>Java, MySQL, JDBC, SpringBoot, JPQL, JavaScript, Angular</em>
+        <hr />
         <ul>
           <li>
             This was the final project that I did at Skill Distillery and it was
@@ -102,8 +116,15 @@ const Portfolio = () => {
             </a>
           </li>
         </ul>
-        <a href="http://skillswap.laurenackley.dev" target={`_blank`}> <img class="schema" src="https://i.imgur.com/7iMrm1G.png" alt="SkillSwapHomePage" /></a>
-    </div>
+        <a href="http://skillswap.laurenackley.dev" target={`_blank`}>
+          {" "}
+          <img
+            class="schema"
+            src="https://i.imgur.com/7iMrm1G.png"
+            alt="SkillSwapHomePage"
+          />
+        </a>
+      </div>
     </div>
   );
 };
