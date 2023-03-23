@@ -31,15 +31,15 @@ body {
   text-align: right;
 }
 .opening {
-    margin: auto;
+  margin: auto;
   padding: 10px;
-  background: linear-gradient(
+  /* background: linear-gradient(
     0deg,
     rgba(156, 101, 110, 1) 0%,
     rgba(148, 162, 183, 1) 100%
-  );
-  border: 3px solid black;
-   min-width: 500px;
+  ); */
+  /* border: 3px solid black; */
+  min-width: 500px;
   max-width: 70%;
   max-height: 720px;
 }
@@ -72,18 +72,13 @@ body {
   display: flex;
   align-items: end;
 }*/
-.picture {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  display: flex;
-}
+
 .carousel {
   height: 80%;
   align-content: center;
   max-height: 800px;
   display: flex;
-    margin: auto;
+  margin: auto;
   object-fit: contain;
 }
 
@@ -110,7 +105,7 @@ body {
   margin-left: 0;
   padding-top: 120px;
 }
-#Midterm{
+#Midterm {
   border-bottom: 3px black solid;
 }
 #col2,
@@ -125,5 +120,10 @@ body {
   justify-content: space-between;
   width: 100%;
 }
-
-
+.carousel-control-prev-icon {
+  background-image: url('https://www.clipartmax.com/png/middle/5-50817_transparent-arrow-left-clip-art-at-clker-com-vector-left-arrow-no.png');
+}
+.carousel-control-next-icon {
+  background-image: url('https://www.clipartmax.com/png/middle/5-50817_transparent-arrow-left-clip-art-at-clker-com-vector-left-arrow-no.png');
+  transform: rotate(180deg);
+}
