@@ -1,14 +1,14 @@
 const Portfolio = () => {
   return (
     <div className="Portfolio">
-      <div id="list-example" class="list-group">
+      <span id="list-example" class="list-group">
         <a class="list-group-item list-group-item-action" href="#Midterm">
           Midterm
         </a>
         <a class="list-group-item list-group-item-action" href="#Final">
           Final
         </a>
-      </div>
+      </span>
 
       <div id="Midterm">
         <h2>Web Application - Sip. </h2>

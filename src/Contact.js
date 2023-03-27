@@ -3,11 +3,11 @@ const Contact = () => {
     <div className="contact">
       <div id="contact">
         <h1> Thanks for visiting!</h1>
-        I created this so that way I could practice React as well as develop my
+        I created this site as a way to practice using React as well as further develop my
         web design skills. <br />
         If you'd like to reach out about a job opportunity, I am currently
         seeking a remote or hybrid position in San Antonio, Texas. The best way
-        to contact me is by email. My email is below if you click on the link.
+        to contact me is by email.
         <br />
         <img
           id="email"
