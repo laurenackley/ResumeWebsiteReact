@@ -4,6 +4,10 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Opening from "./Opening";
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-2WZBD4FGV9";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (

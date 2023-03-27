@@ -1,6 +1,10 @@
+import React, {useEffect} from 'react';
 import { Link } from "react-router-dom";
 import { Fragment } from "react";
 import './headerStyles.css'
+import ReactGA from 'react-ga';
+const TRACKING_ID = 'G-2WZBD4FGV9';
+ReactGA.initialize(TRACKING_ID);
 
 const HeaderLink = (props) => {
   let {text, to} = props;
@@ -13,6 +17,11 @@ const HeaderLink = (props) => {
 }
 
 const Navbar = () => {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <div className="navbar">
         <nav id="navLinks">
