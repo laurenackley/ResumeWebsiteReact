@@ -3,7 +3,8 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
-import Opening from "./Opening";
+// import Opening from "./Opening";
+import OnePage from "./OnePage";
 import ReactGA from 'react-ga';
 
 const TRACKING_ID = "G-2WZBD4FGV9";
@@ -20,7 +21,7 @@ function App() {
         </div>
         <div className="content">
           <Routes>
-            <Route exact path="/" element={<Opening />} />
+            <Route exact path="/" element={<OnePage />} />
             <Route exact path="/resume" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/portfolio" element={< Portfolio/>} />

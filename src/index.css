@@ -99,12 +99,6 @@ body {
   background-color: grey;
   text-align: center;
 }
-#list-example {
-position: fixed;
-  top: 0;
-  margin-top: 120px;
-  margin-left: 0;
-}
 #Midterm {
   border-bottom: 3px black solid;
 }
@@ -126,4 +120,25 @@ position: fixed;
 .carousel-control-next-icon {
   background-image: url("https://www.clipartmax.com/png/middle/5-50817_transparent-arrow-left-clip-art-at-clker-com-vector-left-arrow-no.png");
   transform: rotate(180deg);
+}
+#resume {
+  background-color: #c5c0bc;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+#contactInformation {
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+#portfolio {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  background-color: #9d8b98;
+}
+
+.top{
+  position: fixed; 
+  bottom: 0;
+  right: 0;
+  margin: 50px;
 }
