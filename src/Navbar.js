@@ -11,7 +11,7 @@ const HeaderLink = (props) => {
 
   return (
     <Fragment>
-      <Link className='headerLink' to={to}> <h3>{text}</h3> </Link>
+      <a className='headerLink' href={to}> <h3>{text}</h3> </a>
     </Fragment>
   )
 }
@@ -27,9 +27,9 @@ const Navbar = () => {
         <nav id="navLinks">
 
             <HeaderLink to="/" text="Home"/>
-            <HeaderLink to="/resume" text="Resume"/>
-            <HeaderLink to="/contact" text="Contact Me"/>
-            <HeaderLink to="/portfolio" text="Portfolio" />
+            <HeaderLink to="#resume" text="Resume"/>
+            <HeaderLink to="#portfolio" text="Portfolio" />
+            <HeaderLink to="#contactInformation" text="Contact Me"/>
 
         </nav>
     </div>

@@ -12,7 +12,7 @@ const Opening = () => {
         remote/hybrid positions specializing in Java, React, or Angular. I’ve
         got a special fondness for SQL as well. Take a look around my
         <a href="#portfolio" id="links"> portfolio</a> or check out my <a href="#resume"> resume</a>. If you think I’d be a good fit for a
-        position you have open <a href="#contactInformation">contact me</a> and
+        position you have open <a href="#contact">contact me</a> and
         let’s chat!
       </p>
       <div>

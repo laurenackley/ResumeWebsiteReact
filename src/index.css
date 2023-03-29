@@ -2,10 +2,13 @@
 #Midterm,
 #Final {
   margin: auto;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   min-width: 500px;
   max-width: 70%;
   padding-top: 200px;
+}
+#portfolio{
+  padding-top: 105px;
 }
 #contact {
   margin: auto;
@@ -34,7 +37,7 @@ body {
 }
 .opening {
   margin: auto;
-  padding: 10px;
+  padding-top: 25px;
   /* background: linear-gradient(
     0deg,
     rgba(156, 101, 110, 1) 0%,
@@ -48,7 +51,7 @@ body {
 a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: salmon;
 }
 .column {
@@ -87,6 +90,8 @@ a:hover{
   display: flex;
   margin: auto;
   object-fit: contain;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .app-header {
@@ -98,13 +103,13 @@ a:hover{
   width: 70%;
   min-width: 500px;
   background-color: white;
-  z-index:10;
+  z-index: 10;
 }
 
 #nav {
   position: sticky;
   border: solid 1px;
-  background-color: grey;
+  /* background-color: grey; */
   text-align: center;
 }
 #Midterm {
@@ -130,26 +135,24 @@ a:hover{
   transform: rotate(180deg);
 }
 #resume {
-  background-color: #c5c0bc;
+  /* background-color: #c5c0bc; */
   padding-top: 105px;
   padding-bottom: 105px;
 }
 #contactInformation {
-  padding-top: 105px;
-  padding-bottom: 105px;
-  background-color: #c5c0bc;
-}
-#portfolio {
   /* padding-top: 105px; */
-  /* padding-bottom: 105px; */
-  background-color: #fff;
+  padding-bottom: 105px;
+  /* background-color: green; */
 }
 
-.top{
-  position: fixed; 
+.top {
+  position: fixed;
   bottom: 0;
   right: 0;
   margin: 50px;
+  width: 32px;
+  height: 32px;
+  transform: rotate(90deg);
 }
 .Portfolio > #list-example {
   position: sticky;

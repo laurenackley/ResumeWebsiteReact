@@ -1,14 +1,16 @@
 const Portfolio = () => {
   return (
     <div className="Portfolio">
-      <span id="list-example" class="list-group">
+        <h1>Portfolio Projects</h1>
+        <hr></hr>
+      <div id="list-example" class="list-group">
         <a class="list-group-item list-group-item-action" href="#Midterm">
           Midterm
         </a>
         <a class="list-group-item list-group-item-action" href="#Final">
           Final
         </a>
-      </span>
+      </div>
 
       <div id="Midterm">
         <h2>Web Application - Sip. </h2>

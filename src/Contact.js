@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <div id="contact">
-        <h1> Thanks for visiting!</h1>
+        <h1> Thanks for Visiting!</h1>
         I created this site as a way to practice using React as well as further develop my
         web design skills. <br />
         If you'd like to reach out about a job opportunity, I am currently
