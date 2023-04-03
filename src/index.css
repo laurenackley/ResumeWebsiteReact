@@ -32,7 +32,7 @@ body {
   float: right;
   text-align: right;
 }
-#opener{
+#opener {
   text-align: center;
 }
 .opening {
@@ -44,7 +44,7 @@ body {
     rgba(148, 162, 183, 1) 100%
   ); */
   /* border: 3px solid black; */
-  min-width: 500px; 
+  min-width: 500px;
   max-width: 70%;
   max-height: 720px;
 }
@@ -136,11 +136,13 @@ a:hover {
 }
 .heading {
   position: sticky;
-  top: 105px;
+  top: 115px;
   background-color: white;
   border-bottom: 1px solid black;
+
 }
-#resume, .Portfolio {
+#resume,
+.Portfolio {
   /* background-color: #c5c0bc; */
   padding-top: 75px;
   padding-bottom: 50px;
