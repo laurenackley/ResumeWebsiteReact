@@ -45,7 +45,7 @@ const FinalProject = () => {
         <a href="http://skillswap.laurenackley.dev" target={`_blank`}>
           {" "}
           <img
-            class="schema"
+            className="schema"
             src="https://i.imgur.com/7iMrm1G.png"
             alt="SkillSwapHomePage"
           />

@@ -6,7 +6,7 @@
 const Opening = () => {
   return (
     <div className="opening">
-      <h2>Thanks for Visiting!</h2>
+      <h2 id="opener">Thanks for Visiting!</h2>
       <p>
         I’m Lauren Ackley, thanks for visiting! I’m a developer looking for
         remote/hybrid positions specializing in Java, React, or Angular. I’ve

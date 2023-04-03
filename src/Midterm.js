@@ -47,7 +47,7 @@ const Midterm = () => {
         <a href="https://i.imgur.com/yBwPzs5.png" target={`_blank`}>
           {" "}
           <img
-            class="schema"
+            className="schema"
             src="https://i.imgur.com/yBwPzs5.png"
             alt="Database SchemaDesign"
           />
@@ -57,7 +57,7 @@ const Midterm = () => {
         <a href="http://sip.laurenackley.dev" target={`_blank`}>
           {" "}
           <img
-            class="schema"
+            className="schema"
             src="https://i.imgur.com/zjlSAao.png"
             alt="HomePageSip"
           />

@@ -32,9 +32,12 @@ body {
   float: right;
   text-align: right;
 }
+#opener{
+  text-align: center;
+}
 .opening {
   margin: auto;
-  padding-top: 25px;
+  /* padding-top: 25px; */
   /* background: linear-gradient(
     0deg,
     rgba(156, 101, 110, 1) 0%,
@@ -139,8 +142,8 @@ a:hover {
 }
 #resume, .Portfolio {
   /* background-color: #c5c0bc; */
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 #contactInformation {
   /* padding-top: 105px; */
