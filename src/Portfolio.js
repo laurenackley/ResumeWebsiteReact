@@ -1,18 +1,24 @@
+import Midterm from "./Midterm";
+import Final from "./Final";
 const Portfolio = () => {
   return (
     <div className="Portfolio">
-        <h1>Portfolio Projects</h1>
-        <hr></hr>
-      <div id="list-example" class="list-group">
+        <h1 className="heading">Portfolio Projects</h1>
+        <br />    
+        <Midterm /> 
+          <br/>
+      <Final />
+        
+         {/* <div id="list-example" class="list-group">
         <a class="list-group-item list-group-item-action" href="#Midterm">
           Midterm
         </a>
         <a class="list-group-item list-group-item-action" href="#Final">
           Final
         </a>
-      </div>
+      </div> */}
 
-      <div id="Midterm">
+      {/* <div id="Midterm">
         <h2>Web Application - Sip. </h2>
         &emsp; &emsp;<em>Java, MySQL, JDBC, SpringBoot, JPQL, JSP</em>
         <hr />
@@ -74,9 +80,9 @@ const Portfolio = () => {
             alt="HomePageSip"
           />
         </a>
-      </div>
+      </div> */}
 
-      <div id="Final">
+      {/* <div id="Final">
         <h2>Progressive Web Application - SkillSwap</h2>
         &emsp; &emsp;
         <em>Java, MySQL, JDBC, SpringBoot, JPQL, JavaScript, Angular</em>
@@ -126,7 +132,7 @@ const Portfolio = () => {
             alt="SkillSwapHomePage"
           />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

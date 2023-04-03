@@ -1,6 +1,7 @@
 const Contact = () => {
   return (
     <div className="contact">
+        <h1 className="heading">Contact Information</h1>
       <div id="contact">
         <h1> Thanks for Visiting!</h1>
         I created this site as a way to practice using React as well as further develop my

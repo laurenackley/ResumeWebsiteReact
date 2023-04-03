@@ -2,21 +2,18 @@
 #Midterm,
 #Final {
   margin: auto;
-  padding-bottom: 50px;
   min-width: 500px;
   max-width: 70%;
-  padding-top: 200px;
+  padding-bottom: 25px;
 }
-#portfolio{
-  padding-top: 105px;
-}
+
 #contact {
   margin: auto;
   padding: 10px;
   text-align: center;
   min-width: 500px;
   max-width: 70%;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 .home {
   margin: auto;
@@ -44,7 +41,7 @@ body {
     rgba(148, 162, 183, 1) 100%
   ); */
   /* border: 3px solid black; */
-  min-width: 500px;
+  min-width: 500px; 
   max-width: 70%;
   max-height: 720px;
 }
@@ -90,8 +87,8 @@ a:hover {
   display: flex;
   margin: auto;
   object-fit: contain;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .app-header {
@@ -134,14 +131,20 @@ a:hover {
   background-image: url("https://www.clipartmax.com/png/middle/5-50817_transparent-arrow-left-clip-art-at-clker-com-vector-left-arrow-no.png");
   transform: rotate(180deg);
 }
-#resume {
+.heading {
+  position: sticky;
+  top: 105px;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+#resume, .Portfolio {
   /* background-color: #c5c0bc; */
-  padding-top: 105px;
-  padding-bottom: 105px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 #contactInformation {
   /* padding-top: 105px; */
-  padding-bottom: 105px;
+  padding-bottom: 25px;
   /* background-color: green; */
 }
 
@@ -154,7 +157,10 @@ a:hover {
   height: 32px;
   transform: rotate(90deg);
 }
-.Portfolio > #list-example {
-  position: sticky;
-  top: 105px;
-}
+/* .Portfolio > #list-example{
+position: sticky;
+top: 105px;
+max-width: 100px;
+margin-left: -100px;
+float: left;
+} */
