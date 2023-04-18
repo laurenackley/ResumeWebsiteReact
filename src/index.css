@@ -10,7 +10,6 @@
 #contact {
   margin: auto;
   padding: 10px;
-  text-align: center;
   min-width: 500px;
   max-width: 70%;
   padding-top: 100px;
@@ -101,15 +100,16 @@ a:hover {
   position: fixed;
   top: 0;
   width: 70%;
-  min-width: 500px;
+  min-width: 450px;
   background-color: white;
   z-index: 10;
+  height: 100px;
 }
 
 #nav {
   position: sticky;
   border: solid 1px;
-  /* background-color: grey; */
+  background-color: grey;
   text-align: center;
 }
 #Midterm {
@@ -127,6 +127,7 @@ a:hover {
   justify-content: space-between;
   width: 100%;
 }
+
 .carousel-control-prev-icon {
   background-image: url("https://www.clipartmax.com/png/middle/5-50817_transparent-arrow-left-clip-art-at-clker-com-vector-left-arrow-no.png");
 }
@@ -136,7 +137,8 @@ a:hover {
 }
 .heading {
   position: sticky;
-  top: 115px;
+  /*Adjust the height of resume and portfolio heading*/
+  top: 100px;
   background-color: white;
   border-bottom: 1px solid black;
 
