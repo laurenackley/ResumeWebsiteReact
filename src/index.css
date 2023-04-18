@@ -25,6 +25,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin-left: 15%;
   max-width: 70%;
+  /* font-size: clamp(10px, 4vw, 22px); */
   min-width: 500px;
 }
 #right {
@@ -100,7 +101,7 @@ a:hover {
   position: fixed;
   top: 0;
   width: 70%;
-  min-width: 450px;
+  min-width: 500px;
   background-color: white;
   z-index: 10;
   height: 100px;
@@ -126,6 +127,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  
 }
 
 .carousel-control-prev-icon {
@@ -164,10 +166,4 @@ a:hover {
   height: 32px;
   transform: rotate(90deg);
 }
-/* .Portfolio > #list-example{
-position: sticky;
-top: 105px;
-max-width: 100px;
-margin-left: -100px;
-float: left;
-} */
+
