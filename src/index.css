@@ -105,6 +105,14 @@ a:hover {
   background-color: white;
   z-index: 10;
   height: 100px;
+  font-size-adjust: inherit;
+}
+@media screen and(max-width : 700px)
+{
+  .app-header{
+    background-color: green;
+    height: 300px;
+  }
 }
 
 #nav {
